@@ -1,0 +1,14 @@
+name: "my first container"
+description: "action"
+author: "sitaram"
+inputs:
+  myInput:
+    description: "input "
+    required: true
+    default: "ahhgd"
+outputs:
+  myOutput:
+    description: "total memory"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
